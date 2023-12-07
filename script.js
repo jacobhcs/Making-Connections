@@ -16,7 +16,7 @@ function removeUser(){
 } else {
   console.log('no user here.');
 }
-  number.innerText = count + ' Your Connections';
+  number.innerText = count;
   count--;
 }
 
