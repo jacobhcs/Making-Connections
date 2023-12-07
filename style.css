@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  height: 90px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly
+}
+
+.profile-options {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+}
+
+ul {
+  display: inline-block;
+}
+
+li,
+li a {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+#nav-signout {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 7px 25px;
+  color: white;
+  background-color: rgb(23, 162, 184);
+  border-style: none;
+  cursor: pointer;
+}
+
+.main {
+  height: 800px;
+  margin: 0% auto;
+  display: flex;
+  justify-content: center;
+}
+
+.column1 {
+  height: 800px;
+  width: 500px;
+  margin: 0px 10px;
+  display: inline-block;
+}
+
+.column2 {
+  height: 800px;
+  width: 300px;
+  margin: 0px 10px;
+  display: inline-block;
+}
+
+.profile-card {
+  height: 420px;
+  width: 500px;
+  margin-top: 20px;
+}
+
+.education-card {
+  height: 250px;
+  width: 500px;
+  margin-top: 20px;
+}
+
+.con-req-card {
+  height: 250px;
+  width: 300px;
+  margin-top: 20px;
+}
+
+.your-con-card {
+  height: 350px;
+  width: 300px;
+  margin-top: 20px;
+}
+
+.your-con-body .con-row {
+  height: 70px;
+}
+
+.profile-header {
+  height: 140px;
+  width: 500px;
+  background-color: rgb(23, 162, 184);
+}
+
+.profile-body {
+  height: 280px;
+  width: 500px;
+  border-style: solid;
+  border-top: 0;
+  border-color: rgb(204, 204, 204);
+  padding: 44px 32px;
+}
+
+.main-pfp {
+  border-radius: 50%;
+  height: 116px;
+  margin-top: 64px;
+  margin-left: 42px;
+  border-style: solid;
+  border-color: rgb(187, 200, 202);
+  border-width: 5px;
+  box-shadow: 1px 0px 4px 4px rgb(134, 134, 134, 0.7);
+}
+
+h2 {
+  display: inline;
+  font-weight: bold;
+  font-size: 40px;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.dev-eng-prob {
+  display: block;
+  margin-top: 10px;
+}
+
+.edit-profile {
+  display: block;
+  margin-top: 30px;
+  display: flex;
+  gap: 8px;
+}
+
+.edu-header-text {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  height: 50px;
+  width: 500px;
+  background-color: rgb(51, 51, 51);
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+}
+
+.edu-body {
+  height: 144px;
+  width: 500px;
+  border-style: solid;
+  border-top: 0;
+  border-color: rgb(204, 204, 204);
+  padding: 30px 32px;
+}
+
+.edu-body p {
+  margin-bottom: 10px;
+}
+
+.edu-body .last {
+  margin-top: 20px;
+}
+
+.your-req-header-text {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+  width: 300px;
+  background-color: rgb(51, 51, 51);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.two {
+  border-style: solid;
+  background-color: rgb(204, 204, 204);
+  color: rgb(51, 51, 51);
+  border-radius: 50%;
+  border-width: 4px;
+  border-color: rgb(204, 204, 204);
+  padding: 0px 6px;
+  margin-right: 10px;
+}
+
+.con-req-body {
+  height: 200px;
+  width: 300px;
+  border-style: solid;
+  border-color:rgb(187, 200, 202);
+  border-top: none;
+}
+
+.con-name-text {
+  display: inline;
+  font-size: 20px;
+}
+
+.face-tag {
+  height: 100px;
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.round-pfp {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgb(187, 200, 202);
+  margin-left: 12px;
+  margin-right: 11px;
+}
+
+.accept-deny {
+  height: 100px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.con-row {
+  height: 100px;
+  width: 295px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.your-con-body {
+  height: 300px;
+  width: 300px;
+  border-style: solid;
+  border-color:rgb(187, 200, 202);
+  border-top: none;
+}
+
+.your-con-body .con-row .face-tag {
+  height: 80px;
+}
+
+.view-more {
+  height: 50px;
+  width: 300px;
+  border-style: solid;
+  border-top: 0;
+  border-color: rgb(187, 200, 202);
+  display: flex;
+  align-items: center;
+}
+
+.view-more > a {
+  margin-left: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}

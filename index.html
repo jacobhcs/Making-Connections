@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Page V2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="profile-options">
+      <h1>Profile</h1>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#"><b>My Profile</b></a></li>
+        <li><a href="#">Find Connections</a></li>
+      </ul>
+    </div>
+    <button id="nav-signout">Sign Out</button>
+  </nav>
+  <div class="main">
+    <div class="column1">
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="main-pfp" src="static\icons\jane-m.jpg" alt="jane profile picture">
+        </div>
+        <div class="profile-body">
+          <h2 id="editname">Jane Doe</h2>
+          <img height="18px" src="static\icons\map-marker.png" alt="map marker">
+          <p style="display: inline; margin-left: 7px;" class="loc-text"> Seattle</p>
+          <p class="dev-eng-prob">Developer | Engineer | Problem Solver</p>
+          <p class="dev-eng-prob">Master of shadows and the Internet!</p>
+          <p style="cursor: pointer;" class="edit-profile"><img onclick="newName()" src="static\icons\gear.png" alt="edit profile"
+              height="20px"> <a onclick="newName()" href="#">edit
+              profile</a></p>
+        </div>
+      </div>
+      <div class="education-card">
+        <p class="edu-header-text">Education</p>
+        <div class="edu-body">
+          <p><b>Coding Dojo - Full Stack Bootcamp</b></p>
+          <p style="font-size: 14px; color: rgb(119, 119, 119);"><b>Dec 2019 - Mar 2020</b></p>
+          <p class="last">Triple black belt in Python, MERN, and C# ...</p>
+        </div>
+      </div>
+    </div>
+    <div class="column2">
+      <div class="con-req-card">
+        <p class="your-req-header-text"><span class="two"> 2 </span> Connection Requests</p>
+        <div class="con-req-body">
+          <div id="remove" class="con-row">
+            <div class="face-tag">
+              <img class="round-pfp" src="static\icons\todd-s.jpg" alt="todd profile picture" height="60px">
+              <p class="con-name-text">Todd E</p>
+            </div>
+            <div class="accept-deny">
+              <img onclick="removeUser()" style="cursor: pointer;" src="static\icons\accept-circle.png" alt="accept" height="40px">
+              <img onclick="removeUser()" style="cursor: pointer;" src="static\icons\close-circle.png" alt="accept" height="40px">
+            </div>
+          </div>
+          <div class="con-row">
+            <div class="face-tag">
+              <img class="round-pfp" src="static\icons\phil-s.jpg" alt="phil profile picture" height="60px">
+              <p class="con-name-text">Phil K</p>
+            </div>
+            <div class="accept-deny">
+              <img style="cursor: pointer;" src="static\icons\accept-circle.png" alt="accept" height="40px">
+              <img style="cursor: pointer;" src="static\icons\close-circle.png" alt="accept" height="40px">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="your-con-card">
+        <p id="decrease" class="your-req-header-text"><span class="two"> 500+ </span> Your Connections</p>
+        <div class="your-con-body">
+          <div class="con-row">
+            <div class="face-tag">
+              <img class="round-pfp" src="static\icons\adrien-s.jpg" alt="adrien profile picture" height="60px">
+              <p class="con-name-text">Adrien D</p>
+            </div>
+          </div>
+          <div class="con-row">
+            <div class="face-tag">
+              <img class="round-pfp" src="static\icons\anne-s.jpg" alt="anne profile picture" height="60px">
+              <p class="con-name-text">Anne J</p>
+            </div>
+          </div>
+          <div class="con-row">
+            <div class="face-tag">
+              <img class="round-pfp" src="static\icons\alayne-s.jpg" alt="alayne profile picture" height="60px">
+              <p class="con-name-text">Alayne T</p>
+            </div>
+          </div>
+          <div class="con-row">
+            <div class="face-tag">
+              <img class="round-pfp" src="static\icons\arry-s.jpg" alt="arry profile picture" height="60px">
+              <p class="con-name-text">Arry Y</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="view-more">
+        <a href="#">View More</a>
+      </div>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+
+</html>
