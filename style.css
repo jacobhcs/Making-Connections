@@ -197,7 +197,7 @@ h2 {
   height: 200px;
   width: 300px;
   border-style: solid;
-  border-color:rgb(187, 200, 202);
+  border-color: rgb(187, 200, 202);
   border-top: none;
 }
 
@@ -241,7 +241,7 @@ h2 {
   height: 300px;
   width: 300px;
   border-style: solid;
-  border-color:rgb(187, 200, 202);
+  border-color: rgb(187, 200, 202);
   border-top: none;
 }
 
@@ -259,7 +259,7 @@ h2 {
   align-items: center;
 }
 
-.view-more > a {
+.view-more>a {
   margin-left: 20px;
   font-weight: bold;
   cursor: pointer;
